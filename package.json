@@ -1,0 +1,21 @@
+{
+  "name": "parcel-react-todo-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pengcc/parcel-react-todo-list.git",
+  "author": "pengcc <pengcc981@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-react": "^7.21.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "watch": "parcel src/index.html"
+  },
+  "dependencies": {
+    "antd": "^4.7.0",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  }
+}

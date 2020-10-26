@@ -3,7 +3,6 @@ import { Button } from 'antd';
 import { DeleteFilled } from '@ant-design/icons';
 
 const ToDoList = (props) => {
-    console.log({props})
     const { todos, deleteTodoItem } = props;
     return todos.map((item, idx) => {
         return (
